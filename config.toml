@@ -1,0 +1,39 @@
+baseURL = "https://blog.yongbin.org/"
+languageCode = "en-us"
+title = "Yongbin's Blog"
+theme = "hugo-nuo"
+
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Works"
+  weight = 20
+  identifier = "works"
+  url = "/work/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+
+
+# Add your own params here
+[params]
+  author = "Yongbin"
+  bg = "images/grey-prism.svg"
+  avatar = "images/avatar.png"
+  seotitle = "Hugo Blog (SEO Version)"
+  subtitle = "生活 工作 记录"
+  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  paginate = 10
+
+  # Choose your social networks
+  email = "yb@yongbin.org"
